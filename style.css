@@ -1,4 +1,16 @@
 form {
+  margin: 50px 20%;
+  padding: 10px 5%;
   display: flex;
   flex-direction: column;
+  background-color: beige;
+}
+
+form label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+form textarea {
+  margin-bottom: 1rem;
 }
