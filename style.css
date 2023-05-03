@@ -85,3 +85,9 @@ select {
   color: beige;
   padding: 5px 15px;
 }
+
+select:focus {
+  background-color: beige;
+  color: green;
+  border: 1px solid green;
+}
