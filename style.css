@@ -1,3 +1,8 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -7,13 +12,16 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  border: 2px solid black;
+  background-color: beige;
+  /*border: 2px solid black;*/
 }
 
 .image {
   width: 50%;
   min-width: 300px;
+  max-width: 650px;
   margin: 0 auto;
+  align-items: right;
 }
 
 .image img {
@@ -32,7 +40,6 @@ form {
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
-  background-color: beige;
 }
 
 form > div {
@@ -47,4 +54,34 @@ form label {
 
 form textarea {
   margin-bottom: 1rem;
+  border: 1px solid green;
+}
+
+form input {
+  border: 1px solid green;
+}
+
+.submit {
+  background-color: green;
+  color: beige;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  padding: 5px 25px;
+  margin: 0 auto;
+}
+
+.submit:hover {
+  background-color: beige;
+  color: green;
+  border: 1px solid green;
+  cursor: pointer;
+}
+
+select {
+  border: 0;
+  background-color: green;
+  color: beige;
+  padding: 5px 15px;
 }
