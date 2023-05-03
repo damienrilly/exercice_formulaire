@@ -8,25 +8,40 @@
     <title>Exercice formulaire</title>
   </head>
   <body>
-    <form action="index.html" method="get">
-      <label for="nom">Nom :</label>
-      <input type="text" name="nom" />
-
-      <label for="prenom">Prenom :</label>
-      <input type="text" name="prenom" />
-
-      <label for="email">Email :</label>
-      <input type="email" name="email" />
-
-      <label for="question">Votre question concerne :</label>
-      <select name="question">
-        <option value="compta">Comptabilité</option>
-        <option value="bug">Bug</option>
-        <option value="contact">Contact</option>
-      </select>
-      <label for="infosup">Informations supplémentaires</label>
-      <textarea name="infosup" cols="30" rows="10"></textarea>
-      <input type="submit" />
-    </form>
+    <h1>Contact</h1>
+    <div class="container">
+      <div class="image"><img src="contact_crop.png" alt="contact" /></div>
+      <div class="formulaire">
+        <form action="index.html" method="get">
+          <div>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" />
+          </div>
+          <div>
+            <label for="prenom">Prenom :</label>
+            <input type="text" name="prenom" />
+          </div>
+          <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="question">Votre question concerne :</label>
+            <select name="question">
+              <option value="compta">Comptabilité</option>
+              <option value="bug">Bug</option>
+              <option value="contact">Contact</option>
+            </select>
+          </div>
+          <div>
+            <label for="infosup">Informations supplémentaires</label>
+            <textarea name="infosup" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
