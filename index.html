@@ -6,5 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercice formulaire</title>
   </head>
-  <body></body>
+  <body>
+    <form action="index.html" method="get">
+      <label for="nom">Nom :</label>
+      <input type="text" name="nom" />
+
+      <label for="prenom">Prenom :</label>
+      <input type="text" name="prenom" />
+
+      <label for="email">Email :</label>
+      <input type="email" name="email" />
+
+      <label for="question">Votre question concerne :</label>
+      <select name="question">
+        <option value="compta">Comptabilité</option>
+        <option value="bug">Bug</option>
+        <option value="contact">Contact</option>
+      </select>
+      <label for="infosup">Informations supplémentaires</label>
+      <textarea name="infosup" cols="30" rows="10"></textarea>
+    </form>
+  </body>
 </html>
