@@ -15,19 +15,19 @@
         <form action="index.html" method="get">
           <div>
             <label for="nom">Nom :</label>
-            <input type="text" name="nom" />
+            <input type="text" name="nom" id="nom" />
           </div>
           <div>
             <label for="prenom">Prenom :</label>
-            <input type="text" name="prenom" />
+            <input type="text" name="prenom" id="prenom" />
           </div>
           <div>
             <label for="email">Email :</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" id="email" />
           </div>
           <div>
             <label for="question">Votre question concerne :</label>
-            <select name="question">
+            <select name="question" id="question">
               <option value="compta">Comptabilité</option>
               <option value="bug">Bug</option>
               <option value="contact">Contact</option>
@@ -35,7 +35,12 @@
           </div>
           <div>
             <label for="infosup">Informations supplémentaires</label>
-            <textarea name="infosup" cols="30" rows="10"></textarea>
+            <textarea
+              name="infosup"
+              cols="30"
+              rows="10"
+              id="infosup"
+            ></textarea>
           </div>
           <div>
             <input type="submit" class="submit" />
